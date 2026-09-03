@@ -1,4 +1,4 @@
-# semiconductor_chip_defect_detection
+# Semiconductor Chip Defect Detection
 Machine learning-based detection of semiconductor chip defects using manufacturing process measurements.
 
 **An end-to-end machine learning system that catches defective chips before they leave the fab — and translates that prediction directly into an actionable, real-time production order.**
