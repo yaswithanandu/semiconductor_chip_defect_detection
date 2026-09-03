@@ -129,16 +129,6 @@ When headlines signal foundry disruption or sub-3nm packaging complications, the
 
 ---
 
-## Skills Demonstrated
-
-- **Imbalanced classification** — cost-sensitive learning, threshold tuning, precision/recall trade-off analysis on a real industrial dataset
-- **Feature engineering at scale** — reducing 592 noisy sensor channels to 171 high-signal features via null filtering, imputation, variance thresholding, and multicollinearity pruning
-- **Applied statistics for manufacturing** — translating model recall/precision directly into yield and overstock calculations that map to real production costs
-- **Systems integration** — combining a trained model with a live external data feed (NewsAPI) into a single automated decision pipeline
-- **Manufacturing domain fluency** — framing every modeling decision (threshold, class weighting) around the actual cost asymmetry of a defect escape vs. a false alarm on the fab floor
-
----
-
 *Dataset: UCI SECOM Semiconductor Manufacturing dataset. Pipeline implemented in Python (scikit-learn, pandas), with a production-integration layer connecting model output to a live news-driven yield buffer calculator.*
 
 
